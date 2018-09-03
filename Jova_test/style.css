@@ -1,0 +1,18 @@
+html {
+  background: white;
+}
+body{
+  width: 320px;
+  margin: 20px auto;
+  padding: 10px;
+  background: salmon;
+  box-shadow: 2px 2px 6px #ccc;
+  border-radius: 10px;
+  color: navy;
+}
+.podnaslovi{
+  font-size: 2rem;
+  background: #ccc;
+  color: white;
+  padding: 30px 10px 5px;
+}
