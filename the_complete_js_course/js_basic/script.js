@@ -146,5 +146,91 @@ console.log(tips, bills)
 
 
 /**
- * 
+ * Objects and Properties
+*/
+
+/*
+let john = {
+  firstName: "John",
+  lastName: "Smith",
+  birthYear: 1990,
+  family: ['Jane', 'Mark', 'Bob', 'Emily'],
+  job: 'teacher',
+  isMarried: false
+};
+
+console.log(john.firstName);
+console.log(john['lastName']);
+let x = john.birthYear;
+console.log(x);
+
+john.job = 'designer';
+console.log(john);
+
+let jane = new Object();
+
+jane.firstName = "Jane";
+jane.birthYear = "1969";
+jane.lastName = "Mike";
+console.log(jane);
+*/
+
+/**********************
+ * Object and Methods
+*/
+
+/*
+let john = {
+  firstName: "John",
+  lastName: "Smith",
+  birthYear: 1990,
+  family: ['Jane', 'Mark', 'Bob', 'Emily'],
+  job: 'teacher',
+  isMarried: false,
+  calcAge: function(year) {
+    return year - this.birthYear;
+  }
+};
+
+john.age = john.calcAge(2019);
+
+console.log(john);
+*/
+
+/*
+let mark, john;
+
+function person(fullName, mass, height) {
+  return {
+    fullName: fullName,
+    mass: mass,
+    height: height,
+    calcBmi: function() {
+      this.bmi = this.mass / (this.height * this.height);
+      return this.bmi;
+    }
+  }
+}
+
+mark = person('Mark Smith', 98, 1.83);
+john = person('John Malkovich', 76, 1.82);
+
+john.calcBmi();
+mark.calcBmi();
+
+function whoDid(object1, object2) {
+  if (object1.bmi > object2.bmi) {
+    console.log(`${object1.fullName} has bigger BMI, ${object1.bmi}`);
+  } else if (object1.bmi < object2.bmi) {
+    console.log(`${object2.fullName} has bigger BMI, ${object2.bmi}`);
+  } else {
+    console.log(`${object1.fullName} and ${object2.fullName} has same BMI, ${object1.bmi}`);
+  }
+}
+
+console.log(whoDid(john, mark));
+*/
+
+/**
+ *  
 */
